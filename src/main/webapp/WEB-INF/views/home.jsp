@@ -6,7 +6,8 @@
 </head>
 <body>
 <h1>
-	Hello world!  
+	Hello world!
+	<p align="center"><a href="board">Board</a></p>  
 </h1>
 </body>
 </html>
