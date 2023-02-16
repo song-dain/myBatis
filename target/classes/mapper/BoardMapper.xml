@@ -5,7 +5,7 @@
 	
 <mapper namespace="Board_Mapper">
 
-	<select id="select" resultType="com.ambition.board.dto">
+	<select id="select" resultType="com.ambition.board.dto.BoardDto">
 		SELECT * FROM BOARD ORDER BY CREATED_DATE DESC
 	</select>
 

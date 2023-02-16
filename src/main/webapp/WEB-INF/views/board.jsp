@@ -19,7 +19,7 @@
 		<c:forEach items="${list}" var="data">
 			<td>{data.boardtitle}</td>
 			<td>{data.nickname}</td>
-			<td><fmt:formatDate pattern="yyyy/MM/dd" value="${data.createDate}"/></td>
+			<td>{data.createDate}</td>
 		</c:forEach>
 	</tr>
 </table>

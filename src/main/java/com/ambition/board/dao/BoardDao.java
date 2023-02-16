@@ -21,7 +21,5 @@ public class BoardDao {
 		
 		return sql.selectList(NAMESPACE + "select");
 	}
-	
-	
 
 }
